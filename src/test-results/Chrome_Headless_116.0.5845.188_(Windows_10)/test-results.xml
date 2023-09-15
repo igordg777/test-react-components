@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 116.0.5845.188 (Windows 10)" package="" timestamp="2023-09-15T14:15:49" id="0" hostname="I-GRUDININ-PC" tests="0" errors="1" failures="0" time="0">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/116.0.5845.188 Safari/537.36"/>
+  </properties>
+  <system-out>
+    <![CDATA[Chrome Headless 116.0.5845.188 (Windows 10) ERROR
+  An error was thrown in afterAll
+  Uncaught SyntaxError: Cannot use import statement outside a module
+  SyntaxError: Cannot use import statement outside a module
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

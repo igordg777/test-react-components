@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 116.0.0.0 (Windows 10)" package="" timestamp="2023-09-15T16:13:59" id="0" hostname="I-GRUDININ-PC" tests="0" errors="1" failures="0" time="0">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"/>
+  </properties>
+  <system-out>
+    <![CDATA[Chrome 116.0.0.0 (Windows 10) ERROR
+  An error was thrown in afterAll
+  Uncaught Error: Module parse failed: Unexpected token (8:29)
+  You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+  |     const MyComponent = require('path/to/component.js').default;
+  | 
+  >     const component = create(<MyComponent />);
+  |     const instance = component.getInstance();
+  | 
+  Error: Module parse failed: Unexpected token (8:29)
+  You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+  |     const MyComponent = require('path/to/component.js').default;
+  | 
+  >     const component = create(<MyComponent />);
+  |     const instance = component.getInstance();
+  | 
+      at eval (webpack://test-rend/./src/MyComponent3.spec.js?:1:7)
+      at ./src/MyComponent3.spec.js (C:/Users/IGOR~1.GRU/AppData/Local/Temp/_karma_webpack_103421/commons.js:17:1)
+      at __webpack_require__ (C:/Users/IGOR~1.GRU/AppData/Local/Temp/_karma_webpack_103421/runtime.js:31:41)
+      at __webpack_exec__ (MyComponent3.spec.2853295068.js:12:61)
+      at MyComponent3.spec.2853295068.js:13:68
+      at __webpack_require__.O (C:/Users/IGOR~1.GRU/AppData/Local/Temp/_karma_webpack_103421/runtime.js:67:23)
+      at MyComponent3.spec.2853295068.js:14:56
+      at webpackJsonpCallback (C:/Users/IGOR~1.GRU/AppData/Local/Temp/_karma_webpack_103421/runtime.js:117:39)
+      at MyComponent3.spec.2853295068.js:10:71
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
